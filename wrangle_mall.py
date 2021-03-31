@@ -1,3 +1,9 @@
+import env
+
+import pandas as pd
+
+import sklearn
+
 ## 1. Acquire data from mall_customers.customers in mysql database
 
 def get_connection(db, user=env.user, host=env.host, password=env.password):
